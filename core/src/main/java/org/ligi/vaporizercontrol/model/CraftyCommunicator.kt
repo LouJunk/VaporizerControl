@@ -104,7 +104,7 @@ public class CraftyCommunicator(private val context: Context,private val setting
         setValue(TEMPERATURE_SETPOINT_CHARACTERISTIC_UUID, temperatureSetPoint)
     }
 
-
+/** RELEVANT? */
     private fun readNextCharacteristic(): Boolean {
 
         when {
