@@ -59,7 +59,7 @@ public class ChangeDialogs {
 
         new AlertDialog.Builder(ctx).setMessage("Set LED brightness").setView(discreteSeekBar).setPositiveButton("OK", null).show();
     }
-
+/** RELEVANT? */
     static List<TemperatureSetting> temperatureList = new ArrayList<TemperatureSetting>() {{
         // src http://web.archive.org/web/20100223183517/http://en.wikipedia.org/wiki/Vaporizer
         add(new TemperatureSetting(1230, "<a href='http://en.wikipedia.org/wiki/Syzygium_aromaticum'>Clove</a> Dried flower buds"));
