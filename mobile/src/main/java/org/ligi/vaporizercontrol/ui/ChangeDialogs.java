@@ -60,17 +60,18 @@ public class ChangeDialogs {
         new AlertDialog.Builder(ctx).setMessage("Set LED brightness").setView(discreteSeekBar).setPositiveButton("OK", null).show();
     }
 /** RELEVANT? */
+/** More useful set temperatures. Temp changes only not descriptions */
     static List<TemperatureSetting> temperatureList = new ArrayList<TemperatureSetting>() {{
         // src http://web.archive.org/web/20100223183517/http://en.wikipedia.org/wiki/Vaporizer
-        add(new TemperatureSetting(1230, "<a href='http://en.wikipedia.org/wiki/Syzygium_aromaticum'>Clove</a> Dried flower buds"));
-        add(new TemperatureSetting(1300,
+        add(new TemperatureSetting(1750, "<a href='http://en.wikipedia.org/wiki/Syzygium_aromaticum'>Clove</a> Dried flower buds"));
+        add(new TemperatureSetting(1800,
                                    "<a href='http://en.wikipedia.org/wiki/Eucalyptus_globulus'>Eucapyptus</a> " +
                                    "or <a href='http://en.wikipedia.org/wiki/Lavandula_angustifolia'>Lavender</a> Leaves"));
-        add(new TemperatureSetting(1400, "<a href='http://en.wikipedia.org/wiki/Ginkgo_biloba'>Ginkgo</a> Leaves or seeds"));
-        add(new TemperatureSetting(1420, "<a href='http://en.wikipedia.org/wiki/Melissa_officinalis'>Lemon balm</a> Leaves"));
-        add(new TemperatureSetting(1540, "<a href='http://en.wikipedia.org/wiki/Humulus_lupulus'>Hops</a> Cones"));
-        add(new TemperatureSetting(1830, "<a href='http://en.wikipedia.org/wiki/Aloe_vera'>Aloe_vera</a> Gelatinous fluid from leaves"));
-        add(new TemperatureSetting(1900, "<a href='http://en.wikipedia.org/wiki/Chamomilla_recutita'>Chamomile</a> Flowers " +
+        add(new TemperatureSetting(1850, "<a href='http://en.wikipedia.org/wiki/Ginkgo_biloba'>Ginkgo</a> Leaves or seeds"));
+        add(new TemperatureSetting(1900, "<a href='http://en.wikipedia.org/wiki/Melissa_officinalis'>Lemon balm</a> Leaves"));
+        add(new TemperatureSetting(1950, "<a href='http://en.wikipedia.org/wiki/Humulus_lupulus'>Hops</a> Cones"));
+        add(new TemperatureSetting(2000, "<a href='http://en.wikipedia.org/wiki/Aloe_vera'>Aloe_vera</a> Gelatinous fluid from leaves"));
+        add(new TemperatureSetting(2100, "<a href='http://en.wikipedia.org/wiki/Chamomilla_recutita'>Chamomile</a> Flowers " +
                                          "or <a href='http://en.wikipedia.org/wiki/Salvia_officinalis'>Sage</a> Leaves " +
                                          "or  <a href='http://en.wikipedia.org/wiki/Thymus_vulgaris'>Thyme</a> Herb"));
 
